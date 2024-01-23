@@ -36,7 +36,7 @@ defaults
 
 frontend tebogogema-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend tebogogema-tech-backend
 
 backend tebogogema-tech-backend
     balance roundrobin
